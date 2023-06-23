@@ -1,6 +1,6 @@
 from kickAPI import KickAPI
 
-kickAPI = KickAPI()
+kickAPI = KickAPI() # Can add debug=True as parameter to print requests and responses
 user = kickAPI.user.get_user("poop-dealer")
 
 messages = kickAPI.chat.get_chat(user.account_id) # gets the past 50 messages sent in chat

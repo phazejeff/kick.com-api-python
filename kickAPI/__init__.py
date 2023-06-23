@@ -5,8 +5,8 @@ from .auth import Auth
 from .helper import KICK_BASE_URL, KICK_API_BASE_URL_V1
 
 class KickAPI:
-    def __init__(self):
-        scraper = cloudscraper.CloudScraper(debug=True)
+    def __init__(self, debug=False):
+        scraper = cloudscraper.CloudScraper(debug=debug)
         self.chat = Chat(scraper)
         self.user = User(scraper)
         self.auth = Auth(scraper)
