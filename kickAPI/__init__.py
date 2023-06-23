@@ -14,4 +14,3 @@ class KickAPI:
 
     def __initialize(self, scraper):
         scraper.get(KICK_BASE_URL) # Kick.com must be accessed first to set initial session cookies
-        scraper.get(KICK_BASE_URL + "/kick-token-provider")
