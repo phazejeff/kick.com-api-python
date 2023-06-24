@@ -1,6 +1,6 @@
-# Kick.com Python API
+# Kick.com Python API Wrapper
 
-This is a WIP project. There is currently no public API for Kick, so I am attempting to reverse engineer the website so create a Python API. You can see the [example.py](/example.py) to see how this is used.
+This is a WIP project. There is currently no public API for Kick, so I am attempting to reverse engineer the website so create a Python API wrapper. You can see the [example.py](/example.py) to see how this is used.
 
 The goal of this is to be able to create a custom chat bot with commands, like Twitch.
 
